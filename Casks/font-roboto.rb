@@ -3,7 +3,7 @@ cask 'font-roboto' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/tree/master/apache/roboto',
+  url 'https://github.com/google/fonts.git',
       using:      :git,
       trust_cert: true
   name 'Roboto'
@@ -11,14 +11,14 @@ cask 'font-roboto' do
 
   depends_on macos: '>= :sierra'
 
-  font 'Roboto-Bold.ttf'
-  font 'Roboto-BoldItalic.ttf'
-  font 'Roboto-Italic.ttf'
-  font 'Roboto-Light.ttf'
-  font 'Roboto-LightItalic.ttf'
-  font 'Roboto-Medium.ttf'
-  font 'Roboto-MediumItalic.ttf'
-  font 'Roboto-Regular.ttf'
-  font 'Roboto-Thin.ttf'
-  font 'Roboto-ThinItalic.ttf'
+  font 'apache/robotomono/Roboto-Bold.ttf'
+  font 'apache/robotomono/Roboto-BoldItalic.ttf'
+  font 'apache/robotomono/Roboto-Italic.ttf'
+  font 'apache/robotomono/Roboto-Light.ttf'
+  font 'apache/robotomono/Roboto-LightItalic.ttf'
+  font 'apache/robotomono/Roboto-Medium.ttf'
+  font 'apache/robotomono/Roboto-MediumItalic.ttf'
+  font 'apache/robotomono/Roboto-Regular.ttf'
+  font 'apache/robotomono/Roboto-Thin.ttf'
+  font 'apache/robotomono/Roboto-ThinItalic.ttf'
 end
