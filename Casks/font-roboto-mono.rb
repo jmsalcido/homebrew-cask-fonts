@@ -3,7 +3,7 @@ cask 'font-roboto-mono' do
   sha256 :no_check
 
   # github.com/google/fonts was verified as official when first introduced to the cask
-  url 'https://github.com/google/fonts/',
+  url 'git@github.com:google/fonts.git',
       using:      :git,
       trust_cert: true
   name 'Roboto Mono'
